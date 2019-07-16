@@ -9,6 +9,7 @@ pas de récursion
 pas de GOTO
 pas de fichier .h
 un seul fichier .c
+pas d'asm
 
 Fonctions interdites:
 system
