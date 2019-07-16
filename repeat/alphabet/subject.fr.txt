@@ -1,0 +1,25 @@
+Ecrire un programme qui prend en parametre un nombre positif X.
+Le programme devra afficher X fois l'alphabet dans l'entree standard puis quitter proprement.
+Le fichier source devra etre ecrit en C et peser moins de 1 Ko.
+Les options de compilation sont au choix mais un seul .c devra être compilé.
+
+Contraintes:
+pas de for ni de while
+pas de récursion
+pas de GOTO
+pas de fichier .h
+un seul fichier .c
+
+Fonctions interdites:
+system
+toutes les fonctions exec
+open et toutes les variantes
+getenv
+
+Exemple:
+$>ls -l x.c
+    -rw-r--r--  1 niragne  2016_paris  294 Jul 16 14:56 x.c
+$>gcc -w x.c && ./a.out 2 | cat -e
+123123% 
+$>gcc -w x.c && ./a.out 1000 | wc
+       0       1    3000
