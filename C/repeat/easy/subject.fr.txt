@@ -18,9 +18,9 @@ open et toutes les variantes
 getenv
 
 Exemple:
-$>ls -lh niragne.c
-    -rw-r--r--  1 niragne  2016_paris   268B Jul 19 13:20 niragne.c
-$>gcc -w niragne.c && ./a.out 2 | cat -e
+$>ls -lh x.c
+    -rw-r--r--  1 niragne  2016_paris   268B Jul 19 13:20 x.c
+$>gcc -w x.c && ./a.out 2 | cat -e
     AA%
 $>gcc -w x.c && ./a.out 10000 | wc
        0       1    10000
